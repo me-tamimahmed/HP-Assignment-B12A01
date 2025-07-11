@@ -190,7 +190,7 @@ main{
     background-color: #4E47FF;
     color: white;
     padding: 14px 36px;
-    border-radius: 10px;
+    border-radius: 5px;
     font-weight: bold;
     font-size: 16px;
     border: none;
@@ -199,5 +199,47 @@ main{
 }
 .ready-img img{
     border-radius: 48px;
+
+}
+.get{
+    background-color:#f7f3f7;
+}
+.get-rapper{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 450px;
+    padding: 60px 0px;
+}
+.get-title h1{
+    font-size: 90px;
+}
+.get-form input[type="email"], .get-form input[type="text"]{
+    background-color:white;
+    height: 25px;
+    width: 255px;
+    padding: 15px 32px;
+    border: 1px solid #f0ecec;
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+.get-form textarea{
+    background-color:white;
+    height: 25px;
+    width: 255px;
+    padding: 50px 32px;
+    border: 1px solid #f0ecec;
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+
+}
+.get-btn{
+    background-color: #4E47FF;
+    color: white;
+    padding: 14px 120px;
+    border-radius: 5px;
+    font-weight: bold;
+    border: none;
 
 }
