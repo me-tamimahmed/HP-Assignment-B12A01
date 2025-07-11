@@ -243,3 +243,32 @@ main{
     border: none;
 
 }
+footer{
+    text-align: center;
+    margin: 0px 680px 100px;
+}
+footer h1{
+    font-size: 80px;
+    color: #4E47FF;
+    font-weight: bolder;
+}
+footer p{
+    color:rgba(37, 36, 50, 0.5) ;
+}
+.footer-ul ul li{
+     display: inline;
+
+
+}
+.footer-ul li{
+    list-style: none;
+    
+    
+}
+.footer-ul ul li a{
+
+    text-decoration: none;
+    color: rgba(37, 36, 50, 0.5);
+    margin-right: 20px;
+    
+}
