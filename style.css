@@ -1,16 +1,22 @@
 
-.open-sans-normal {
-  font-family: "Open Sans", sans-serif;
+
+.inter-normal {
+  font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
+}
+.raleway-normal {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
 }
 
 .header-bg{
     background-image: url("B12A01-landing-launchpad/Assets/Hero-bg.png");
     width: auto;
-    height:698px;
+    height:750px;
+    font-family: r;
 }
 .nav-logo h3{
     color: #4E47FF;
@@ -50,10 +56,28 @@ nav{
 .banner-content{
     margin: 0px 480px;
     text-align: center;
-
-    
-   
 }
-.banner-content h1{
-    /* text-align: center; */
+.action{
+    display: flex;
+    justify-content: space-between;
+    margin: 200px 300px;
+}
+.action img {
+     border-radius:48px;
+}
+.action-items h3{
+    font-size: 42px;
+}
+.action-p{
+    font-size: 24px;
+    color: rgba(37, 36, 50, 0.5);
+}
+.action-btn{
+    background-color: #4E47FF;
+    color: white;
+    padding: 14px 36px;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 16px;
+    border: none;
 }
