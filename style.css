@@ -11,9 +11,8 @@
   font-weight: bold;
   font-style: normal;
 }
-
 .header-bg{
-    background-image: url("B12A01-landing-launchpad/Assets/Hero-bg.png");
+    background-image: url("Assets/Hero-bg.png");
     width: auto;
     height:750px;
     font-family: r;
@@ -21,8 +20,7 @@
 .nav-logo h3{
     color: #4E47FF;
     font-size: 32px;
-    font-weight:800 ;
-    
+    font-weight:800 ;   
 }
 .nav-sing-btn button{
     background-color: #4E47FF;
@@ -37,14 +35,12 @@
     font-weight: bold;
     transform:scale(1.1);
 }
-
 nav{
     display: flex;
     width: 1140px;
     justify-content: space-between;
     align-items: center;
     margin: 0 300px 200px;
-
 }
 .text-cen{
     text-align: center;
@@ -61,8 +57,7 @@ nav{
     font-weight: bold;
     font-size: 16px;
     border: none;
-    transition: all 0.3s;
-    
+    transition: all 0.3s;  
 }
 .btn-banner:hover{
     background-color:cadetblue;
@@ -106,21 +101,16 @@ nav{
 .join-repper {
     text-align: center;
     padding: 20px 0px;
-  
 }
 .join{
     background-color: rgba(78, 71, 255, 0.1);
     margin: 0px 300px;
-    border-radius: 24px;
- 
-    
+    border-radius: 24px; 
 }
 .join-items{
     display: flex;
     gap: 150px;
-    margin-left: 235px;
-    
-     
+    margin-left: 235px;  
 }
 .join h3{
     font-size: 38px;
@@ -163,7 +153,6 @@ nav{
     font-size: 25px;
     margin-top: 10px;
     margin-bottom: 10px
-   
 }
 .skill p{
     font-size: 15px;
@@ -174,7 +163,6 @@ nav{
     margin-bottom: -10px;
 }
 .review-container .date{
-
     color: darkgrey;
     font-size: 18px;
 }
@@ -191,11 +179,9 @@ nav{
 .ready{
     text-align: center;
     margin: 150px 0px;
-
 }
 .ready h3{
     font-size: 40px;
-    
 }
 .ready p{
     color: rgba(37, 36, 50, 0.5);
@@ -211,17 +197,14 @@ nav{
     border: none;
     margin-bottom: 20px;
     transition: all 0.3s;
-
 }
 .ready button:hover{
     background-color:cadetblue;
     font-weight: bold;
-    transform:scale(1.1); 
-    
+    transform:scale(1.1);   
 }
 .ready-img img{
     border-radius: 48px;
-
 }
 .get{
     background-color:#f7f3f7;
@@ -256,6 +239,7 @@ nav{
     margin-bottom: 20px;
 
 }
+
 .get-btn{
     background-color: #4E47FF;
     color: white;
@@ -285,17 +269,13 @@ footer p{
 .footer-ul ul li{
      display: inline;
 
-
 }
 .footer-ul li{
-    list-style: none;
-    
-    
+    list-style: none; 
 }
-.footer-ul ul li a{
 
+.footer-ul ul li a{
     text-decoration: none;
     color: rgba(37, 36, 50, 0.5);
-    margin-right: 20px;
-    
+    margin-right: 20px; 
 }
